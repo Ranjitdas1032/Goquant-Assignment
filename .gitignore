@@ -1,0 +1,78 @@
+# ───── Python / Django ─────────────────────────────────────────────
+# venvs (you have ".vnev" typo too — ignore both)
+.vnev/
+.vnev/
+venv/
+env/
+
+# Bytecode / build
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# Django stuff
+db.sqlite3
+*.sqlite3
+/media/
+staticfiles/          # if you run collectstatic to a local folder
+static_root/
+logs/
+*.log
+
+# Testing / tooling
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.pyre/
+.dmypy.json
+.pyre_configuration.local
+
+# Env / secrets
+.env
+*.env
+.env.*
+
+
+# ───── Node / React (Vite) ────────────────────────────────────────
+md-client/node_modules/
+md-client/dist/
+md-client/.vite/
+md-client/.parcel-cache/
+md-client/.turbo/
+md-client/.eslintcache
+
+# lockfiles are usually committed (keep these)
+# !md-client/package-lock.json
+# !md-client/pnpm-lock.yaml
+# !md-client/yarn.lock
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ───── OS / Editor junk ───────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.iml
